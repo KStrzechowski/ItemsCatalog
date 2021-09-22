@@ -12,7 +12,7 @@ export type Condition = 'New' | 'Used';
 const items: ItemData[] = [
   {
     itemId: 1,
-    name: 'chair',
+    name: 'Chair',
     available: true,
     price: 100,
     condition: 'New',
@@ -20,7 +20,7 @@ const items: ItemData[] = [
   },
   {
     itemId: 2,
-    name: 'table',
+    name: 'Table',
     available: true,
     price: 400,
     condition: 'New',

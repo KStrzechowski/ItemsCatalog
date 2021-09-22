@@ -1,4 +1,3 @@
-import React from 'react';
 import { GetAvailableItems, ItemData } from './ItemData';
 import { ItemList } from './ItemList';
 import { PageTitle } from './PageTitle';
@@ -8,11 +7,13 @@ interface Props {
   data: ItemData[];
 }
 
-export const HomePage = () => (
-  <Page>
-    <div>
-      <PageTitle>Available items</PageTitle>
+export const HomePage = () => {
+  return (
+    <Page>
+      <div>
+        <PageTitle>Available items</PageTitle>
+      </div>
       <ItemList data={GetAvailableItems()} />
-    </div>
-  </Page>
-);
+    </Page>
+  );
+};
